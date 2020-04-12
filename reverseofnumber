@@ -1,0 +1,21 @@
+public static void main(String[] args)
+
+      {
+           
+            int num;
+            int q=0;
+            int r=0;
+
+            while (num > 0)
+            {
+                   q = num%10 ;
+
+                  r=r*10 + q;
+
+                  num = num/10;
+             }
+             System.out.println("Reverse of a number is " +r);
+                 
+}
+              
+              
